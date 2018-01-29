@@ -5,4 +5,3 @@ env:
   - PORT=5000
 script:
   - npm run test-server
-  - node ./node_modules/coveralls/bin/coveralls.js < ./coverage/lcov.info
