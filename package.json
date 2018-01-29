@@ -1,0 +1,63 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A portfolio for andino93",
+  "main": "index.jsx",
+  "scripts": {
+    "start": "node server/compiled/index.js",
+    "dev-server": "nodemon --exec babel-node --presets env,react -- server/index.js",
+    "test": "mocha -R spec --compilers jsx:babel-register,js:babel-register spec/*.spec.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andino93/portfolio.git"
+  },
+  "author": "Andrew Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andino93/portfolio/issues"
+  },
+  "homepage": "https://github.com/andino93/portfolio#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "nodejs": "0.0.0",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-airbnb": "^2.4.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
+    "moch": "0.0.1",
+    "nodemon": "^1.14.11",
+    "webpack-dev-middleware": "^2.0.4",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-hot-middleware": "^2.21.0"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "eslintIgnore": [
+    "**/*.spec.js"
+  ]
+}
