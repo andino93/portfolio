@@ -4,4 +4,8 @@ node_js:
 env:
   - PORT=5000
 script:
+  - npm run dev-server
   - npm run test-server
+after_success:
+  - npm run test:coverage
+  - npm run report:coverage
