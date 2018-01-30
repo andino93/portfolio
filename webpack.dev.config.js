@@ -10,7 +10,7 @@ const config = {
   output: {
     path: DIST_DIR,
     filename: 'bundle.js',
-    publicPath: '/client/',
+    publicPath: '/client/src/compiled',
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
