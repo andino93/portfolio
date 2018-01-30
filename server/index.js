@@ -7,7 +7,7 @@ const server = express();
 const assets = path.join(__dirname, '../client/src/');
 const port = process.env.PORT;
 
-server.listen(port, () => console.log(`server is listening on ${port}`));
+server.listen(port);
 // disable for global requires since airbnb doesn't like them being in a block
 if (process.env.NODE_ENV === 'development') {
   /* eslint-disable */
