@@ -2,7 +2,7 @@ import {} from 'dotenv/config';
 import { expect, assert } from 'chai';
 import axios from 'axios';
 import 'babel-polyfill'; // for async/await compiling
-import server from '../index';
+// import server from '../index';
 
 describe('Express Server', () => {
   describe('should respond to requests', async () => {
