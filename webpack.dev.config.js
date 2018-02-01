@@ -6,7 +6,7 @@ const SRC_DIR = path.resolve(__dirname, 'client/src');
 
 const config = {
   resolve: { extensions: ['.webpack.js', '.web.js', '.js', '.json', '.jsx'] },
-  entry: ['webpack-hot-middleware/client?reload=true', `${SRC_DIR}/components/Main.jsx`],
+  entry: ['webpack-hot-middleware/client?reload=true', `${SRC_DIR}/Main.jsx`],
   output: {
     path: DIST_DIR,
     filename: 'bundle.js',
