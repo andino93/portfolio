@@ -4,7 +4,7 @@ import cors from 'cors';
 import path from 'path';
 
 const server = express();
-const assets = path.join(__dirname, '../client/src/');
+const assets = path.join(__dirname, '../client/');
 const port = process.env.PORT;
 
 server.listen(port, () => console.log(`server is listening on ${port}`));
