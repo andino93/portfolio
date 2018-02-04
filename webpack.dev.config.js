@@ -2,7 +2,7 @@ import webpack from 'webpack';
 import path from 'path';
 
 const DIST_DIR = path.resolve(__dirname, 'client/dist');
-const SRC_DIR = path.resolve(__dirname, 'client/src');
+const SRC_DIR = path.resolve(__dirname, 'client');
 
 const config = {
   resolve: { extensions: ['.webpack.js', '.web.js', '.js', '.json', '.jsx'] },

@@ -1,7 +1,7 @@
 import React from 'react';
 
-const NavBar = () => (
-  <div className="hero is-fullheight is-primary is-bold">
+const Greeter = () => (
+  <div className="hero is-fullheight is-info is-bold">
     <div className="hero-body">
       <div className="container">
         <div className="section">
@@ -12,14 +12,9 @@ const NavBar = () => (
             height="28"
           />
         </div>
-        <button className="button navbar-burger">
-          <span />
-          <span />
-          <span />
-        </button>
       </div>
     </div>
   </div>
 );
 
-export default NavBar;
+export default Greeter;
