@@ -4,13 +4,15 @@ import About from './About';
 import Projects from './Projects';
 import Expertise from './Expertise';
 import Footer from './Footer';
+import NavBar from './NavBar';
 
 const App = () => (
   <div>
     <Greeter />
-    <About />
-    <Projects />
+    <NavBar />
     <Expertise />
+    <Projects />
+    <About />
     <Footer />
   </div>
 );
