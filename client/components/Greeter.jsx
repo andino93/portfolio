@@ -11,6 +11,7 @@ const Greeter = () => (
             width="112"
             height="28"
           />
+          <h1 className="title">Hello, I'm Andy. Here's what I do.</h1>
         </div>
       </div>
     </div>
