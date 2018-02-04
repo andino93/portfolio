@@ -4,10 +4,12 @@ import About from './About';
 import Projects from './Projects';
 import Expertise from './Expertise';
 import Footer from './Footer';
+import NavBar from './NavBar';
 
 const App = () => (
   <div>
     <Greeter />
+    <NavBar />
     <Expertise />
     <Projects />
     <About />
