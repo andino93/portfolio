@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
   <div className="footer">
-    <div className="level">
+    <div className="level is-mobile">
       <a
         className="level-item"
         href="https://github.com/andino93"
