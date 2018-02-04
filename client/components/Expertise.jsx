@@ -23,7 +23,7 @@ const Expertise = () => (
                   <p className="title">Middle tile</p>
                   <p className="subtitle">With an image</p>
                   <figure className="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/640x480.png"/>
+                    <img src="https://bulma.io/images/placeholders/640x480.png" alt="placeholder" />
                   </figure>
                 </article>
               </div>
@@ -32,7 +32,9 @@ const Expertise = () => (
               <article className="tile is-child notification is-danger">
                 <p className="title">Wide tile</p>
                 <p className="subtitle">Aligned with the right tile</p>
-                <div className="content"></div>
+                <div className="content">
+                  Some writing goes here about what i'm apparently good at
+                </div>
               </article>
             </div>
           </div>
@@ -41,7 +43,9 @@ const Expertise = () => (
               <div className="content">
                 <p className="title">Tall tile</p>
                 <p className="subtitle">With even more content</p>
-                <div className="content"></div>
+                <div className="content">
+                  Some writing goes here about what i'm apparently good at
+                </div>
               </div>
             </article>
           </div>
