@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Greeter = () => (
-  <div className="hero is-fullheight is-info is-bold">
+  <div className="hero is-info is-fullheight is-bold">
     <div className="hero-body">
       <div className="container">
         <div className="section">

@@ -8,9 +8,9 @@ import Footer from './Footer';
 const App = () => (
   <div>
     <Greeter />
-    <About />
-    <Projects />
     <Expertise />
+    <Projects />
+    <About />
     <Footer />
   </div>
 );

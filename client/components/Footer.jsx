@@ -4,7 +4,7 @@ const Footer = () => (
   <div className="footer">
     <div className="level">
       <a
-        className="level-item has-text-centered"
+        className="level-item"
         href="https://github.com/andino93"
         target="_blank"
         rel="noopener noreferrer"
@@ -17,7 +17,7 @@ const Footer = () => (
         />
       </a>
       <a
-        className="level-item has-text-centered"
+        className="level-item"
         href="https://www.linkedin.com/in/andino93/"
         target="_blank"
         rel="noopener noreferrer"
@@ -30,7 +30,7 @@ const Footer = () => (
         />
       </a>
       <a
-        className="level-item has-text-centered"
+        className="level-item"
         href="mailto:andrew.at.nguyen@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
@@ -43,7 +43,7 @@ const Footer = () => (
         />
       </a>
       <a
-        className="level-item has-text-centered"
+        className="level-item"
         href="http://www.twitter.com/andino93"
         target="_blank"
         rel="noopener noreferrer"
@@ -56,7 +56,7 @@ const Footer = () => (
         />
       </a>
       <a
-        className="level-item has-text-centered"
+        className="level-item"
         href="https://plus.google.com/u/0/+AndyNguyenExplorer"
         target="_blank"
         rel="noopener noreferrer"
