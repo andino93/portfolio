@@ -28,7 +28,7 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <div className="hero is-bold is-light">
+      <div className="hero is-bold is-light is-medium">
         <div className="hero-body">
           <div className="container">
             <div className="title level-item">Projects</div>

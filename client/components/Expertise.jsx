@@ -4,7 +4,7 @@ const Expertise = () => (
   <div className="hero is-medium">
     <div className="hero-body">
       <div className="container">
-        <h1 className="title level-item">My Expertise</h1>
+        <div className="title level-item">My Expertise</div>
         <div className="tile is-ancestor">
           <div className="tile is-vertical is-8">
             <div className="tile">
