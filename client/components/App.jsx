@@ -1,4 +1,5 @@
 import React from 'react';
+import Sticky from 'react-stickynode';
 import Greeter from './Greeter';
 import About from './About';
 import Projects from './Projects';
@@ -9,7 +10,9 @@ import NavBar from './NavBar';
 const App = () => (
   <div>
     <Greeter />
-    <NavBar />
+    <Sticky>
+      <NavBar />
+    </Sticky>
     <Expertise />
     <Projects />
     <About />
