@@ -1,11 +1,16 @@
 import React from 'react';
+import _ from 'lodash';
 import ProjectTabs from './ProjectTabs';
+import Project from './ProjectView';
+import projectData from '../assets/projects';
 
 class Projects extends React.Component {
   constructor() {
     super();
     this.state = {
       active: 'all',
+      projects: projectData,
+      project: {},
     };
     this.onSelect = this.onSelect.bind(this);
     this.isSelected = this.isSelected.bind(this);
@@ -13,7 +18,7 @@ class Projects extends React.Component {
   }
 
   onSelect(e) {
-    this.setState({ active: e });
+    this.setState({ active: e, project: this.state.projects[e] });
   }
 
   onKeyPress(e) {
@@ -24,6 +29,13 @@ class Projects extends React.Component {
 
   isSelected(el) {
     return el === this.state.active ? 'is-active' : null;
+  }
+
+  displayType() {
+    const all = _.map(this.state.projects, (project, i) => <Project {...project} key={i} />);
+    return this.state.active === 'all'
+      ? <div className="container">{all}</div>
+      : <Project {...this.state.project} />
   }
 
   render() {
@@ -38,11 +50,8 @@ class Projects extends React.Component {
                 isSelected={this.isSelected}
                 onKeyPress={this.onKeyPress}
               />
-              Add some React stuff here for projects. Maybe I'll need some state
-              <div className="hero is-large">
-                <div className="hero-body">
-                  Test check to make sure unsized hero can change size dynamically
-                </div>
+              <div className="container">
+                <Project />
               </div>
             </div>
           </div>
